@@ -7,12 +7,6 @@ public class MyApp : ModuleRules
 {
 	public MyApp(ReadOnlyTargetRules Target) : base(Target)
 	{
-		PublicIncludePathModuleNames.AddRange(
-			new string[] {
-				"Launch",
-			}
-		);
-
 		PrivateDependencyModuleNames.AddRange(
 			new string[] {
 				"AppFramework",
@@ -22,6 +16,12 @@ public class MyApp : ModuleRules
 				"Slate",
 				"SlateCore",
 				"StandaloneRenderer",
+			}
+		);
+
+		PrivateIncludePathModuleNames.AddRange(
+			new string[] {
+				"Launch",
 			}
 		);
 
