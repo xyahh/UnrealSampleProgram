@@ -16,7 +16,7 @@ class IMyAppTool : public TSharedFromThis<IMyAppTool>
 public:
 	virtual ~IMyAppTool() = default;
 
-	virtual void Initialize(const TSharedRef<FMyAppToolset>& InMyApp)
+	virtual void Initialize(const TSharedRef<FMyAppToolset>& InToolset)
 	{
 	}
 
