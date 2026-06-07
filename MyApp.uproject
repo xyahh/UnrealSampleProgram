@@ -1,0 +1,18 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{0651C1A4-4758-24E9-5C63-46A953101B95}",
+	"Category": "",
+	"Description": "",
+	"TargetPlatforms": [
+		"Windows",
+		"Mac",
+		"Linux"
+	],
+	"Modules": [
+		{
+			"Name": "MyApp",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
