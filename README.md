@@ -2,7 +2,7 @@
 
 MyApp is a minimal Unreal Program template. It is intended as a small starting point for building standalone tools for Unreal Engine.
 
-Started with https://github.com/lpestl/UnrealSlateAppTemplate, and made modifications to it by removing an extra module and keeping directories lean.
+Started with https://github.com/lpestl/UnrealSlateAppTemplate, and made significant modifications to it.
 
 ## Getting Started
 
